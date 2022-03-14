@@ -7,6 +7,7 @@
 - ML Models Training 
 - DL Models Training
 - Deployment with Flask 
+- Demo GIF
 
 # 1- Data Fetching [![Open In Collab](https://colab.research.google.com/assets/colab-badge.svg)]( https://colab.research.google.com/drive/1cDgxXtVWdJKkqOvd2mSakJzxKNsxh5Dx?usp=sharing )
 
@@ -44,3 +45,5 @@
 - **templates/prediction.html** to get inputs
 - **templates/Result.html** to display the post-procssing and prediction result
 - **static/base.css** 
+
+# 6- Demo
