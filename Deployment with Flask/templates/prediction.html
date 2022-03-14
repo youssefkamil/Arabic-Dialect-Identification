@@ -1,0 +1,21 @@
+
+<!DOCTYPE html>
+  <html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <title>Get Input</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='base.css') }}">
+  </head>
+  <body>
+
+  <h2>Dialect prediction</h2>
+<div align="center">
+        <form action ="http://localhost:5000/Result" method="post">
+
+            <p>Please enter the sentence </p>
+            <input type = "text" name = "Data" size="100"/>
+            <p> <input type="submit" value="submit"/></p>
+        </form>
+</div>
+  </body>
+</html>
