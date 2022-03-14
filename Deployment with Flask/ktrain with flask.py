@@ -55,10 +55,10 @@ predictor = None
 def load_predictor():
     global predictor
     print("Loading model ....")
-    predictor = ktrain.load_predictor('E:\elec\Machine learning\Projects\Ktrain with flask\Final model')
+    predictor = ktrain.load_predictor('Final model')
     print("Loaded Successfully! ....")
 
-app = Flask(__name__,template_folder=r"E:\elec\Machine learning\Projects\Ktrain with flask\templates")
+app = Flask(__name__,template_folder=r"templates")
 
 @app.route('/')
 
