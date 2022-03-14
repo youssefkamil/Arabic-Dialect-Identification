@@ -4,16 +4,15 @@
   <head>
     <meta charset="UTF-8">
     <title>Result</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='base.css') }}">
   </head>
   <body>
-    <link rel="stylesheet" href="{{ url_for('static', filename='base.css') }}">
-
-  <h2>Result</h2>
-  <h3>Post-proceesing sentence <p></p> {{  text  }}</h3>
-  <h3>Result <p></p>  {{  result  }}</h3>
+    <h2>Post-proceesing sentence</h2>
+    <h3>{{  text  }}</h3>
+    <h2>Result</h2>
+    <h3>{{  result  }}</h3>
     <form action ="http://localhost:5000" >
         <p> <input type="submit" value="Try again !" /></p>
     </form>
-
   </body>
 </html>
