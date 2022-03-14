@@ -29,7 +29,7 @@
 - CountVectorizer
 - TFIDF
 - Mazajak
-- 
+
 
 
 # 4- DL Models Training [![Open In Collab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/13BDdtJ8j2vQIp5eErL3Xgfg9NAJ7KJ6D?usp=sharing ) 
@@ -47,5 +47,5 @@
 - **static/base.css** 
 
 # 6- Demo
-[someLabel](/Arabic-Dialect-Identification)
 
+![2022-03-14-10-53-09](https://user-images.githubusercontent.com/37241010/158138839-48316c6f-426d-443e-8bc1-a6ca1302f663.gif)
