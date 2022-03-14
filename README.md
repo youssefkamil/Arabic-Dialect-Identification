@@ -47,3 +47,5 @@
 - **static/base.css** 
 
 # 6- Demo
+[someLabel](/Arabic-Dialect-Identification)
+
